@@ -1,0 +1,17 @@
+---
+title: "test collaboration"
+format: html
+---
+
+This is a test collaboration!
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+ggplot(data = mtcars, aes(x = cyl, y = mpg)) +
+  geom_point()
+```
+
